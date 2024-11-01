@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0b1mnj6c1cpw"]
+
+[ext_resource type="Material" uid="uid://dx443eqk038od" path="res://Shaders/SandPlain.tres" id="1_6ogp3"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_xmw77"]
+subdivide_width = 200
+subdivide_depth = 200
+orientation = 1
+
+[node name="MeshInstance3D" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.019659)
+cast_shadow = 0
+mesh = SubResource("QuadMesh_xmw77")
+surface_material_override/0 = ExtResource("1_6ogp3")

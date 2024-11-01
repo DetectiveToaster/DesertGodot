@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://dxa06q4kkjhwb"]
+
+[ext_resource type="Texture2D" uid="uid://swh7csadkfag" path="res://Textures/Desert1/Normal2.png" id="2_v3wqp"]
+[ext_resource type="Texture2D" uid="uid://dqyfoby0gyvmw" path="res://Textures/Desert1/aerial_beach_01_rough_4k.jpg" id="3_70uuu"]
+
+[resource]
+albedo_color = Color(0.381703, 0.381703, 0.381703, 1)
+roughness_texture = ExtResource("3_70uuu")
+normal_enabled = true
+normal_texture = ExtResource("2_v3wqp")
+uv1_scale = Vector3(99, 99, 99)
